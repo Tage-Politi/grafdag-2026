@@ -1,0 +1,11 @@
+Our purpose in writing this book is to provide a gentle introduction to a subject
+that is enjoying a surge in interest. We believe that the subject is fascinating in its
+own right, but the increase in interest can be attributed to several factors. One factor
+is the realization that networks are “everywhere”. From social networks such
+as Facebook, the World Wide Web and the Internet to the complex interactions
+between proteins in the cells of our bodies, we face the challenge of understanding
+their structure and development. By and large natural networks grow in an
+unpredictable manner and this is often modeled by a random construction. Another
+factor is the realization by Computer Scientists that NP-hard problems are
+often easier to solve than their worst-case suggests and that an analysis of running
+times on random instances can be informative.
