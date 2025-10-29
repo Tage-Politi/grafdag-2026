@@ -8,7 +8,7 @@ Eksemplene i Jupyter bruker data som hentes fra `git@github.com:MADStudioNU/lesm
 
 # Notater
 Stemmer det at antall klikker med størrelse $k$ i en Erd\"os-Rényi
-graf $G(n,p) er forventet å være
+graf $G(n,p)$ er forventet å være
 $$
 	F_n(k) := {n \choose k} p^{k \choose 2} {(1-p^k)}^{n-k}
 $$
