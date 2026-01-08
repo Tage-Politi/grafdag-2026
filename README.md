@@ -5,7 +5,8 @@
 ### Intune PC
 Søke i `http://tilgang` om **Local Admin**.
 
-Når det er gjort, start programmet `MakeMeAdmin`, og  gå til Firmaportalen og last ned "Ubuntu 24.04 LTS".
+Når det er innvilget, start programmet `MakeMeAdmin`, og  gå til
+Firmaportalen og last ned "Ubuntu 24.04 LTS"; tar litt tid.
 
 Deretter
 ```
@@ -24,11 +25,16 @@ This machine is currently configured in rootless mode.
 ```
 
 ## Programvaren
-
+Hent det vi skal snakke om:
+```
+~> git clone git@github.com:Tage-Politi/grafdag-2026.git
+```
 
 For å komme på luften:
 ```
-    ~> python3 -v venv
-    ~> . venv/bin/activate
-    (venv) ~> pip install -r requirements.txt
+    ~> cd grafdag/
+    grafdag > python3 -v venv
+    grafdag > . venv/bin/activate
+    (venv) grafdag ~> pip install -r requirements.txt
 ```
+
