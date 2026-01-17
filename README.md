@@ -33,8 +33,9 @@ Hent det vi skal snakke om:
 For å komme på luften:
 ```
     ~> cd grafdag/
-    grafdag > python3 -v venv
-    grafdag > . venv/bin/activate
-    (venv) grafdag ~> pip install -r requirements.txt
+    grafdag> python3 -v venv
+    grafdag> . venv/bin/activate
+    (venv) grafdag> pip install -r requirements.txt
+    (venv) grafdag> jupyter notebook
 ```
 
