@@ -1,610 +1,607 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d17" for="edge" attr.name="Uttak" attr.type="boolean" />
-  <key id="d16" for="edge" attr.name="Til" attr.type="boolean" />
-  <key id="d15" for="edge" attr.name="Overføring" attr.type="boolean" />
-  <key id="d14" for="edge" attr.name="Fra" attr.type="boolean" />
-  <key id="d13" for="edge" attr.name="Innskudd" attr.type="boolean" />
-  <key id="d12" for="edge" attr.name="Kjenner" attr.type="boolean" />
-  <key id="d11" for="edge" attr.name="Kontoeier" attr.type="boolean" />
-  <key id="d10" for="node" attr.name="Uttak" attr.type="boolean" />
-  <key id="d9" for="node" attr.name="Til" attr.type="string" />
-  <key id="d8" for="node" attr.name="Fra" attr.type="string" />
-  <key id="d7" for="node" attr.name="Overføring" attr.type="boolean" />
-  <key id="d6" for="node" attr.name="Tidspunkt" attr.type="string" />
-  <key id="d5" for="node" attr.name="Beløp" attr.type="double" />
-  <key id="d4" for="node" attr.name="Innskudd" attr.type="boolean" />
-  <key id="d3" for="node" attr.name="Transaksjon" attr.type="boolean" />
-  <key id="d2" for="node" attr.name="Konto" attr.type="boolean" />
+  <key id="d9" for="edge" attr.name="label" attr.type="string" />
+  <key id="d8" for="node" attr.name="Uttak" attr.type="boolean" />
+  <key id="d7" for="node" attr.name="Til" attr.type="string" />
+  <key id="d6" for="node" attr.name="Fra" attr.type="string" />
+  <key id="d5" for="node" attr.name="Overføring" attr.type="boolean" />
+  <key id="d4" for="node" attr.name="Tidspunkt" attr.type="string" />
+  <key id="d3" for="node" attr.name="Beløp" attr.type="double" />
+  <key id="d2" for="node" attr.name="Innskudd" attr.type="boolean" />
   <key id="d1" for="node" attr.name="Navn" attr.type="string" />
-  <key id="d0" for="node" attr.name="Person" attr.type="boolean" />
+  <key id="d0" for="node" attr.name="labels" attr.type="string" />
   <graph edgedefault="undirected">
-    <node id="82a4c974-7b1f-4b2b-a959-9a227dda403f">
-      <data key="d0">True</data>
-      <data key="d1">Teresa</data>
+    <node id="59240b3d-edc9-450b-b94f-8ecd694364cb">
+      <data key="d0">:Person</data>
+      <data key="d1">Gunlaug</data>
     </node>
-    <node id="0b4cb055-0fa3-4f27-bc7b-0bc6be1975c5">
-      <data key="d2">True</data>
+    <node id="82dccf7d-59ca-4164-8e08-680b7c40c23b">
+      <data key="d0">:Konto</data>
     </node>
-    <node id="4cab8495-aebd-42c7-b7b1-a2e46ba82e04">
-      <data key="d0">True</data>
-      <data key="d1">Zain</data>
+    <node id="8d3db347-c995-4124-9089-f3ac90cc2dd3">
+      <data key="d0">:Person</data>
+      <data key="d1">Wanja</data>
     </node>
-    <node id="35353226-3bb1-472b-96cf-73dbe7612b4a">
-      <data key="d2">True</data>
+    <node id="098d8827-5c30-4b7d-8521-bfa2e50289f9">
+      <data key="d0">:Konto</data>
     </node>
-    <node id="9137dd84-dbbe-4f22-ad7d-bb4c9ba78828">
-      <data key="d0">True</data>
-      <data key="d1">Bergliot</data>
+    <node id="fd7b8547-0631-4f9d-bd53-1c1e4a159102">
+      <data key="d0">:Person</data>
+      <data key="d1">Ariel</data>
     </node>
-    <node id="706dccf5-75c2-4dbd-a3bf-2f4511cb5167">
-      <data key="d2">True</data>
+    <node id="f81c2cb1-9c32-4cb3-ba3b-274a5b19c503">
+      <data key="d0">:Konto</data>
     </node>
-    <node id="9ae66c57-024e-45d0-b10e-594a551a7219">
-      <data key="d0">True</data>
-      <data key="d1">Leikny</data>
+    <node id="4919cd10-3cde-42a9-b45b-f6f909af2e67">
+      <data key="d0">:Person</data>
+      <data key="d1">Nikolay</data>
     </node>
-    <node id="fb3cf069-a0e0-4a2a-8349-bf1872f6bfd8">
-      <data key="d2">True</data>
+    <node id="46224196-edb6-4711-93e5-d638ccdc2eb4">
+      <data key="d0">:Konto</data>
     </node>
-    <node id="a281d3ed-8280-4884-bf3a-7fb6d02f346f">
-      <data key="d0">True</data>
-      <data key="d1">Anthony</data>
+    <node id="c8875bd9-75cc-447d-990d-7036d3e38445">
+      <data key="d0">:Person</data>
+      <data key="d1">Willy</data>
     </node>
-    <node id="3a45257b-a4ff-47d6-b03e-01993379daba">
-      <data key="d2">True</data>
+    <node id="4e6e892a-49b6-4ade-8326-02ab530c74b1">
+      <data key="d0">:Konto</data>
     </node>
-    <node id="6f3fa70f-8bae-4883-aa7e-e85b9ebb3cee">
-      <data key="d0">True</data>
-      <data key="d1">Siw</data>
+    <node id="edd792f1-4c7d-4ebd-9cf5-899fff65317c">
+      <data key="d0">:Person</data>
+      <data key="d1">Preben</data>
     </node>
-    <node id="f9c57e3e-a740-463d-94b9-045b1d06a776">
-      <data key="d2">True</data>
+    <node id="c6c0c6c7-1dfc-434b-a16b-ab67b210e115">
+      <data key="d0">:Konto</data>
     </node>
-    <node id="a4e660f5-1fa1-4662-9493-5ef2ed93468a">
-      <data key="d0">True</data>
-      <data key="d1">Rino</data>
+    <node id="4d5e0ad5-364c-45ac-a832-1f8202c7c82e">
+      <data key="d0">:Person</data>
+      <data key="d1">Bernt</data>
     </node>
-    <node id="09adb5bb-a860-4402-ae49-33cf476e6b0e">
-      <data key="d2">True</data>
+    <node id="18a48d78-1248-436d-a268-af5dad58d037">
+      <data key="d0">:Konto</data>
     </node>
-    <node id="64ff92ff-24ed-4103-ad9f-03e5e852ada3">
-      <data key="d0">True</data>
-      <data key="d1">Diana</data>
+    <node id="5e032c8b-cb30-4be8-85af-5ef58bca2130">
+      <data key="d0">:Person</data>
+      <data key="d1">Lindis</data>
     </node>
-    <node id="def2bd48-dae6-4884-9101-5fe79179c811">
-      <data key="d2">True</data>
+    <node id="ee07996d-7f32-4106-86cf-2d7d8c83065c">
+      <data key="d0">:Konto</data>
     </node>
-    <node id="b97521e2-8ddb-488f-9407-73ade6f3f792">
-      <data key="d0">True</data>
-      <data key="d1">Bergljot</data>
+    <node id="fa8f933b-3849-4b16-8e2d-20516cafdd03">
+      <data key="d0">:Person</data>
+      <data key="d1">Hanan</data>
     </node>
-    <node id="e6d11e71-26e6-4bae-b5b3-ce63253f7faf">
-      <data key="d2">True</data>
+    <node id="3665ab39-5a5b-4b29-9623-d1d14f97fead">
+      <data key="d0">:Konto</data>
     </node>
-    <node id="679e491a-add5-41b1-b265-898f9766c5c3">
-      <data key="d0">True</data>
-      <data key="d1">Torill</data>
+    <node id="4eec4583-b782-41ab-b093-78e6c6a7ab92">
+      <data key="d0">:Person</data>
+      <data key="d1">Gina</data>
     </node>
-    <node id="677d1b90-af9b-4ce9-b5e7-c38dcf18d9e6">
-      <data key="d2">True</data>
+    <node id="d85d7859-9335-4a52-aac1-8461ac667d4c">
+      <data key="d0">:Konto</data>
     </node>
-    <node id="95af5b64-8022-4268-88c6-8ff3e15d0a89">
-      <data key="d0">True</data>
+    <node id="16b48757-bdd2-44ec-85c4-c0f4950c2f85">
+      <data key="d0">:Person</data>
       <data key="d1">Bakmann</data>
     </node>
-    <node id="da39ce62-f8a5-4910-b752-af3e9f3ea824">
+    <node id="94c070b4-91f5-4832-ac89-3acb38613fb5">
+      <data key="d0">:Konto</data>
+    </node>
+    <node id="bfb3a994-e697-470d-a32c-214f42507998">
+      <data key="d0">:Transaksjon</data>
       <data key="d2">True</data>
+      <data key="d3">538976.28</data>
+      <data key="d4">2026-02-23T10:01:52.214417</data>
     </node>
-    <node id="a3522958-3895-46f7-bed4-e521dd9dfc81">
-      <data key="d3">True</data>
-      <data key="d4">True</data>
-      <data key="d5">749279.45</data>
-      <data key="d6">2026-02-15T20:30:07.919560</data>
+    <node id="d3218195-4e26-46cf-8de2-4784075fab90">
+      <data key="d0">:Transaksjon</data>
+      <data key="d5">True</data>
+      <data key="d6">82dccf7d-59ca-4164-8e08-680b7c40c23b</data>
+      <data key="d7">c6c0c6c7-1dfc-434b-a16b-ab67b210e115</data>
+      <data key="d3">538976.28</data>
+      <data key="d4">2026-02-23T10:01:52.214417</data>
     </node>
-    <node id="414ecfd9-9b2a-4ac3-93ad-c38899002b11">
-      <data key="d3">True</data>
-      <data key="d7">True</data>
-      <data key="d8">82a4c974-7b1f-4b2b-a959-9a227dda403f</data>
-      <data key="d9">64ff92ff-24ed-4103-ad9f-03e5e852ada3</data>
-      <data key="d5">749279.45</data>
-      <data key="d6">2026-02-15T20:30:07.919560</data>
+    <node id="34523778-df24-4128-b4b0-84bd021ff773">
+      <data key="d0">:Transaksjon</data>
+      <data key="d2">True</data>
+      <data key="d3">150066.21</data>
+      <data key="d4">2026-02-23T07:56:10.757260</data>
     </node>
-    <node id="469f951c-8f87-4f44-8e97-d32be5479b74">
-      <data key="d3">True</data>
-      <data key="d4">True</data>
-      <data key="d5">767235.93</data>
-      <data key="d6">2026-02-16T01:34:25.502742</data>
+    <node id="a7cb3277-d189-4148-9370-051fb26e5534">
+      <data key="d0">:Transaksjon</data>
+      <data key="d5">True</data>
+      <data key="d6">098d8827-5c30-4b7d-8521-bfa2e50289f9</data>
+      <data key="d7">c6c0c6c7-1dfc-434b-a16b-ab67b210e115</data>
+      <data key="d3">150066.21</data>
+      <data key="d4">2026-02-23T07:56:10.757260</data>
     </node>
-    <node id="b6a62ed7-e2f2-4c87-83ca-9ae9a4406359">
-      <data key="d3">True</data>
-      <data key="d7">True</data>
-      <data key="d8">4cab8495-aebd-42c7-b7b1-a2e46ba82e04</data>
-      <data key="d9">64ff92ff-24ed-4103-ad9f-03e5e852ada3</data>
-      <data key="d5">767235.93</data>
-      <data key="d6">2026-02-16T01:34:25.502742</data>
+    <node id="932d3e3a-4223-439f-b78f-527fcf4f1954">
+      <data key="d0">:Transaksjon</data>
+      <data key="d2">True</data>
+      <data key="d3">964641.07</data>
+      <data key="d4">2026-02-23T13:14:18.789208</data>
     </node>
-    <node id="4e065f56-2414-49b0-823f-aaccbd501b04">
-      <data key="d3">True</data>
-      <data key="d4">True</data>
-      <data key="d5">278459.45</data>
-      <data key="d6">2026-02-16T01:44:39.654102</data>
+    <node id="ecbe02d3-3054-499a-a2e5-69f232128531">
+      <data key="d0">:Transaksjon</data>
+      <data key="d5">True</data>
+      <data key="d6">f81c2cb1-9c32-4cb3-ba3b-274a5b19c503</data>
+      <data key="d7">c6c0c6c7-1dfc-434b-a16b-ab67b210e115</data>
+      <data key="d3">964641.07</data>
+      <data key="d4">2026-02-23T13:14:18.789208</data>
     </node>
-    <node id="522a73b9-8458-49b2-aa2d-2cba99534a1e">
-      <data key="d3">True</data>
-      <data key="d7">True</data>
-      <data key="d8">9137dd84-dbbe-4f22-ad7d-bb4c9ba78828</data>
-      <data key="d9">64ff92ff-24ed-4103-ad9f-03e5e852ada3</data>
-      <data key="d5">278459.45</data>
-      <data key="d6">2026-02-16T01:44:39.654102</data>
+    <node id="37a3d3b9-a7cf-4e82-a374-a4f6978c6bc1">
+      <data key="d0">:Transaksjon</data>
+      <data key="d2">True</data>
+      <data key="d3">460080.37</data>
+      <data key="d4">2026-02-23T11:40:16.477196</data>
     </node>
-    <node id="8cf93ccc-6573-4e3a-ba90-8fd2eb2dc103">
-      <data key="d3">True</data>
-      <data key="d4">True</data>
-      <data key="d5">376794.08</data>
-      <data key="d6">2026-02-15T20:28:10.407675</data>
+    <node id="2b3d5256-800d-4cd1-9569-c31517c97907">
+      <data key="d0">:Transaksjon</data>
+      <data key="d5">True</data>
+      <data key="d6">46224196-edb6-4711-93e5-d638ccdc2eb4</data>
+      <data key="d7">c6c0c6c7-1dfc-434b-a16b-ab67b210e115</data>
+      <data key="d3">460080.37</data>
+      <data key="d4">2026-02-23T11:40:16.477196</data>
     </node>
-    <node id="2729ae89-4957-49b6-a1a7-8284c1471a36">
-      <data key="d3">True</data>
-      <data key="d7">True</data>
-      <data key="d8">9ae66c57-024e-45d0-b10e-594a551a7219</data>
-      <data key="d9">64ff92ff-24ed-4103-ad9f-03e5e852ada3</data>
-      <data key="d5">376794.08</data>
-      <data key="d6">2026-02-15T20:28:10.407675</data>
+    <node id="aeaccd69-a692-4955-9666-9ee27ad5fbeb">
+      <data key="d0">:Transaksjon</data>
+      <data key="d2">True</data>
+      <data key="d3">809356.73</data>
+      <data key="d4">2026-02-23T14:01:27.117079</data>
     </node>
-    <node id="61e449b1-f0a5-469a-a335-fdcef6e3ad35">
-      <data key="d3">True</data>
-      <data key="d4">True</data>
-      <data key="d5">444083.31</data>
-      <data key="d6">2026-02-16T02:41:51.405439</data>
+    <node id="d1e49137-4b30-4a48-bfe6-6bea6fd981da">
+      <data key="d0">:Transaksjon</data>
+      <data key="d5">True</data>
+      <data key="d6">4e6e892a-49b6-4ade-8326-02ab530c74b1</data>
+      <data key="d7">c6c0c6c7-1dfc-434b-a16b-ab67b210e115</data>
+      <data key="d3">809356.73</data>
+      <data key="d4">2026-02-23T14:01:27.117079</data>
     </node>
-    <node id="149ed3b6-5415-4b16-991f-a55fa1e3b0f2">
-      <data key="d3">True</data>
-      <data key="d7">True</data>
-      <data key="d8">a281d3ed-8280-4884-bf3a-7fb6d02f346f</data>
-      <data key="d9">64ff92ff-24ed-4103-ad9f-03e5e852ada3</data>
-      <data key="d5">444083.31</data>
-      <data key="d6">2026-02-16T02:41:51.405439</data>
+    <node id="b940f989-7a5c-4ad7-b0d7-a4f27d31fd2f">
+      <data key="d0">:Transaksjon</data>
+      <data key="d2">True</data>
+      <data key="d3">878788.83</data>
+      <data key="d4">2026-02-23T08:23:53.351044</data>
     </node>
-    <node id="6f0ea34f-0701-4436-a0ee-53ae726b0b7e">
-      <data key="d3">True</data>
-      <data key="d4">True</data>
-      <data key="d5">362040.92</data>
-      <data key="d6">2026-02-16T03:09:07.678056</data>
+    <node id="28e05e29-da93-4858-8705-89c0022ff660">
+      <data key="d0">:Transaksjon</data>
+      <data key="d5">True</data>
+      <data key="d6">c6c0c6c7-1dfc-434b-a16b-ab67b210e115</data>
+      <data key="d7">c6c0c6c7-1dfc-434b-a16b-ab67b210e115</data>
+      <data key="d3">878788.83</data>
+      <data key="d4">2026-02-23T08:23:53.351044</data>
     </node>
-    <node id="d12d154c-0127-4d22-843d-3773d2e8abbc">
-      <data key="d3">True</data>
-      <data key="d7">True</data>
-      <data key="d8">6f3fa70f-8bae-4883-aa7e-e85b9ebb3cee</data>
-      <data key="d9">64ff92ff-24ed-4103-ad9f-03e5e852ada3</data>
-      <data key="d5">362040.92</data>
-      <data key="d6">2026-02-16T03:09:07.678056</data>
+    <node id="c3eb5024-6375-421a-93fe-1fa66afac5fd">
+      <data key="d0">:Transaksjon</data>
+      <data key="d2">True</data>
+      <data key="d3">594838.01</data>
+      <data key="d4">2026-02-23T07:31:53.775777</data>
     </node>
-    <node id="a7a43e29-7480-4a50-8dc6-f89f393ae5cf">
-      <data key="d3">True</data>
-      <data key="d4">True</data>
-      <data key="d5">306814.16</data>
-      <data key="d6">2026-02-15T23:23:50.375792</data>
+    <node id="193f6c21-ee44-41c1-8a57-51a0f2df12a1">
+      <data key="d0">:Transaksjon</data>
+      <data key="d5">True</data>
+      <data key="d6">18a48d78-1248-436d-a268-af5dad58d037</data>
+      <data key="d7">c6c0c6c7-1dfc-434b-a16b-ab67b210e115</data>
+      <data key="d3">594838.01</data>
+      <data key="d4">2026-02-23T07:31:53.775777</data>
     </node>
-    <node id="cbe9830d-4d72-415b-9658-9f7bd19b570b">
-      <data key="d3">True</data>
-      <data key="d7">True</data>
-      <data key="d8">a4e660f5-1fa1-4662-9493-5ef2ed93468a</data>
-      <data key="d9">64ff92ff-24ed-4103-ad9f-03e5e852ada3</data>
-      <data key="d5">306814.16</data>
-      <data key="d6">2026-02-15T23:23:50.375792</data>
+    <node id="efafb18f-e9d8-441f-ad26-9cf1734b2fa5">
+      <data key="d0">:Transaksjon</data>
+      <data key="d2">True</data>
+      <data key="d3">212234.85</data>
+      <data key="d4">2026-02-23T08:07:43.447306</data>
     </node>
-    <node id="4474657b-d966-4339-b9fc-69fe2a80fea9">
-      <data key="d3">True</data>
-      <data key="d4">True</data>
-      <data key="d5">557541.53</data>
-      <data key="d6">2026-02-16T01:47:17.102453</data>
+    <node id="0d865d47-89fe-4ecc-836c-7e800fa3eb20">
+      <data key="d0">:Transaksjon</data>
+      <data key="d5">True</data>
+      <data key="d6">ee07996d-7f32-4106-86cf-2d7d8c83065c</data>
+      <data key="d7">c6c0c6c7-1dfc-434b-a16b-ab67b210e115</data>
+      <data key="d3">212234.85</data>
+      <data key="d4">2026-02-23T08:07:43.447306</data>
     </node>
-    <node id="00dd302b-bd31-4689-b5c7-7fc43679bc41">
-      <data key="d3">True</data>
-      <data key="d7">True</data>
-      <data key="d8">64ff92ff-24ed-4103-ad9f-03e5e852ada3</data>
-      <data key="d9">64ff92ff-24ed-4103-ad9f-03e5e852ada3</data>
-      <data key="d5">557541.53</data>
-      <data key="d6">2026-02-16T01:47:17.102453</data>
+    <node id="a69042a7-aa87-4779-b326-e99e7399cd7b">
+      <data key="d0">:Transaksjon</data>
+      <data key="d2">True</data>
+      <data key="d3">448431.68</data>
+      <data key="d4">2026-02-23T13:26:19.499103</data>
     </node>
-    <node id="68554d90-871e-4637-a0fd-f86239495d38">
-      <data key="d3">True</data>
-      <data key="d4">True</data>
-      <data key="d5">274473.82</data>
-      <data key="d6">2026-02-16T00:07:47.425328</data>
+    <node id="2417ffaa-a328-4028-8f90-f0fb2938c157">
+      <data key="d0">:Transaksjon</data>
+      <data key="d5">True</data>
+      <data key="d6">3665ab39-5a5b-4b29-9623-d1d14f97fead</data>
+      <data key="d7">c6c0c6c7-1dfc-434b-a16b-ab67b210e115</data>
+      <data key="d3">448431.68</data>
+      <data key="d4">2026-02-23T13:26:19.499103</data>
     </node>
-    <node id="28d18483-ecf8-4506-9272-87a1818879aa">
-      <data key="d3">True</data>
-      <data key="d7">True</data>
-      <data key="d8">b97521e2-8ddb-488f-9407-73ade6f3f792</data>
-      <data key="d9">64ff92ff-24ed-4103-ad9f-03e5e852ada3</data>
-      <data key="d5">274473.82</data>
-      <data key="d6">2026-02-16T00:07:47.425328</data>
+    <node id="f8d7f752-22c4-442d-be9c-d169ac6167f8">
+      <data key="d0">:Transaksjon</data>
+      <data key="d2">True</data>
+      <data key="d3">430030.91</data>
+      <data key="d4">2026-02-23T11:43:56.964800</data>
     </node>
-    <node id="b73f2f6d-179e-44ae-804e-075a5076e359">
-      <data key="d3">True</data>
-      <data key="d4">True</data>
-      <data key="d5">252709.6</data>
-      <data key="d6">2026-02-16T00:23:02.742825</data>
+    <node id="fbdcca4f-3003-4e11-a11a-a5270e42fd71">
+      <data key="d0">:Transaksjon</data>
+      <data key="d5">True</data>
+      <data key="d6">d85d7859-9335-4a52-aac1-8461ac667d4c</data>
+      <data key="d7">c6c0c6c7-1dfc-434b-a16b-ab67b210e115</data>
+      <data key="d3">430030.91</data>
+      <data key="d4">2026-02-23T11:43:56.964800</data>
     </node>
-    <node id="a69ed7d2-73b8-4e2c-824f-0629a0bb6e6b">
-      <data key="d3">True</data>
-      <data key="d7">True</data>
-      <data key="d8">679e491a-add5-41b1-b265-898f9766c5c3</data>
-      <data key="d9">64ff92ff-24ed-4103-ad9f-03e5e852ada3</data>
-      <data key="d5">252709.6</data>
-      <data key="d6">2026-02-16T00:23:02.742825</data>
+    <node id="be181989-537a-4810-ae0f-b4905dab4545">
+      <data key="d0">:Transaksjon</data>
+      <data key="d8">True</data>
+      <data key="d3">430030.91</data>
+      <data key="d4">2026-02-23T10:33:16.526583</data>
     </node>
-    <node id="34780a46-b9c0-420a-bb3a-ca79bd7e3b86">
-      <data key="d3">True</data>
-      <data key="d10">True</data>
-      <data key="d5">252709.6</data>
-      <data key="d6">2026-02-16T01:19:12.439043</data>
+    <node id="3a3999fe-3b3a-4a5b-bc48-ab3acf7e8837">
+      <data key="d0">:Transaksjon</data>
+      <data key="d2">True</data>
+      <data key="d3">0.0</data>
+      <data key="d4">2026-02-25T06:05:47.098029</data>
     </node>
-    <node id="eb532f04-66ba-45cd-8b58-7d80e860ff01">
-      <data key="d3">True</data>
-      <data key="d4">True</data>
-      <data key="d5">0.0</data>
-      <data key="d6">2026-02-17T20:06:09.822088</data>
-    </node>
-    <edge source="82a4c974-7b1f-4b2b-a959-9a227dda403f" target="0b4cb055-0fa3-4f27-bc7b-0bc6be1975c5">
-      <data key="d11">True</data>
+    <edge source="59240b3d-edc9-450b-b94f-8ecd694364cb" target="82dccf7d-59ca-4164-8e08-680b7c40c23b" id="0">
+      <data key="d9">:Kontoeier</data>
     </edge>
-    <edge source="82a4c974-7b1f-4b2b-a959-9a227dda403f" target="4cab8495-aebd-42c7-b7b1-a2e46ba82e04">
-      <data key="d12">True</data>
+    <edge source="59240b3d-edc9-450b-b94f-8ecd694364cb" target="8d3db347-c995-4124-9089-f3ac90cc2dd3" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="82a4c974-7b1f-4b2b-a959-9a227dda403f" target="9137dd84-dbbe-4f22-ad7d-bb4c9ba78828">
-      <data key="d12">True</data>
+    <edge source="59240b3d-edc9-450b-b94f-8ecd694364cb" target="fd7b8547-0631-4f9d-bd53-1c1e4a159102" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="82a4c974-7b1f-4b2b-a959-9a227dda403f" target="9ae66c57-024e-45d0-b10e-594a551a7219">
-      <data key="d12">True</data>
+    <edge source="59240b3d-edc9-450b-b94f-8ecd694364cb" target="4919cd10-3cde-42a9-b45b-f6f909af2e67" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="82a4c974-7b1f-4b2b-a959-9a227dda403f" target="a281d3ed-8280-4884-bf3a-7fb6d02f346f">
-      <data key="d12">True</data>
+    <edge source="59240b3d-edc9-450b-b94f-8ecd694364cb" target="c8875bd9-75cc-447d-990d-7036d3e38445" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="82a4c974-7b1f-4b2b-a959-9a227dda403f" target="6f3fa70f-8bae-4883-aa7e-e85b9ebb3cee">
-      <data key="d12">True</data>
+    <edge source="59240b3d-edc9-450b-b94f-8ecd694364cb" target="edd792f1-4c7d-4ebd-9cf5-899fff65317c" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="82a4c974-7b1f-4b2b-a959-9a227dda403f" target="a4e660f5-1fa1-4662-9493-5ef2ed93468a">
-      <data key="d12">True</data>
+    <edge source="59240b3d-edc9-450b-b94f-8ecd694364cb" target="4d5e0ad5-364c-45ac-a832-1f8202c7c82e" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="82a4c974-7b1f-4b2b-a959-9a227dda403f" target="64ff92ff-24ed-4103-ad9f-03e5e852ada3">
-      <data key="d12">True</data>
+    <edge source="59240b3d-edc9-450b-b94f-8ecd694364cb" target="5e032c8b-cb30-4be8-85af-5ef58bca2130" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="82a4c974-7b1f-4b2b-a959-9a227dda403f" target="b97521e2-8ddb-488f-9407-73ade6f3f792">
-      <data key="d12">True</data>
+    <edge source="59240b3d-edc9-450b-b94f-8ecd694364cb" target="fa8f933b-3849-4b16-8e2d-20516cafdd03" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="82a4c974-7b1f-4b2b-a959-9a227dda403f" target="679e491a-add5-41b1-b265-898f9766c5c3">
-      <data key="d12">True</data>
+    <edge source="59240b3d-edc9-450b-b94f-8ecd694364cb" target="4eec4583-b782-41ab-b093-78e6c6a7ab92" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="82a4c974-7b1f-4b2b-a959-9a227dda403f" target="a3522958-3895-46f7-bed4-e521dd9dfc81">
-      <data key="d13">True</data>
+    <edge source="59240b3d-edc9-450b-b94f-8ecd694364cb" target="bfb3a994-e697-470d-a32c-214f42507998" id="0">
+      <data key="d9">:Innskudd</data>
     </edge>
-    <edge source="82a4c974-7b1f-4b2b-a959-9a227dda403f" target="414ecfd9-9b2a-4ac3-93ad-c38899002b11">
-      <data key="d14">True</data>
+    <edge source="59240b3d-edc9-450b-b94f-8ecd694364cb" target="d3218195-4e26-46cf-8de2-4784075fab90" id="0">
+      <data key="d9">:Overføring</data>
     </edge>
-    <edge source="0b4cb055-0fa3-4f27-bc7b-0bc6be1975c5" target="a3522958-3895-46f7-bed4-e521dd9dfc81">
-      <data key="d13">True</data>
+    <edge source="82dccf7d-59ca-4164-8e08-680b7c40c23b" target="bfb3a994-e697-470d-a32c-214f42507998" id="0">
+      <data key="d9">:Innskudd</data>
     </edge>
-    <edge source="0b4cb055-0fa3-4f27-bc7b-0bc6be1975c5" target="414ecfd9-9b2a-4ac3-93ad-c38899002b11">
-      <data key="d15">True</data>
+    <edge source="82dccf7d-59ca-4164-8e08-680b7c40c23b" target="d3218195-4e26-46cf-8de2-4784075fab90" id="0">
+      <data key="d9">:Fra</data>
     </edge>
-    <edge source="4cab8495-aebd-42c7-b7b1-a2e46ba82e04" target="35353226-3bb1-472b-96cf-73dbe7612b4a">
-      <data key="d11">True</data>
+    <edge source="8d3db347-c995-4124-9089-f3ac90cc2dd3" target="098d8827-5c30-4b7d-8521-bfa2e50289f9" id="0">
+      <data key="d9">:Kontoeier</data>
     </edge>
-    <edge source="4cab8495-aebd-42c7-b7b1-a2e46ba82e04" target="9137dd84-dbbe-4f22-ad7d-bb4c9ba78828">
-      <data key="d12">True</data>
+    <edge source="8d3db347-c995-4124-9089-f3ac90cc2dd3" target="fd7b8547-0631-4f9d-bd53-1c1e4a159102" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="4cab8495-aebd-42c7-b7b1-a2e46ba82e04" target="9ae66c57-024e-45d0-b10e-594a551a7219">
-      <data key="d12">True</data>
+    <edge source="8d3db347-c995-4124-9089-f3ac90cc2dd3" target="4919cd10-3cde-42a9-b45b-f6f909af2e67" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="4cab8495-aebd-42c7-b7b1-a2e46ba82e04" target="a281d3ed-8280-4884-bf3a-7fb6d02f346f">
-      <data key="d12">True</data>
+    <edge source="8d3db347-c995-4124-9089-f3ac90cc2dd3" target="c8875bd9-75cc-447d-990d-7036d3e38445" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="4cab8495-aebd-42c7-b7b1-a2e46ba82e04" target="6f3fa70f-8bae-4883-aa7e-e85b9ebb3cee">
-      <data key="d12">True</data>
+    <edge source="8d3db347-c995-4124-9089-f3ac90cc2dd3" target="edd792f1-4c7d-4ebd-9cf5-899fff65317c" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="4cab8495-aebd-42c7-b7b1-a2e46ba82e04" target="a4e660f5-1fa1-4662-9493-5ef2ed93468a">
-      <data key="d12">True</data>
+    <edge source="8d3db347-c995-4124-9089-f3ac90cc2dd3" target="4d5e0ad5-364c-45ac-a832-1f8202c7c82e" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="4cab8495-aebd-42c7-b7b1-a2e46ba82e04" target="64ff92ff-24ed-4103-ad9f-03e5e852ada3">
-      <data key="d12">True</data>
+    <edge source="8d3db347-c995-4124-9089-f3ac90cc2dd3" target="5e032c8b-cb30-4be8-85af-5ef58bca2130" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="4cab8495-aebd-42c7-b7b1-a2e46ba82e04" target="b97521e2-8ddb-488f-9407-73ade6f3f792">
-      <data key="d12">True</data>
+    <edge source="8d3db347-c995-4124-9089-f3ac90cc2dd3" target="fa8f933b-3849-4b16-8e2d-20516cafdd03" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="4cab8495-aebd-42c7-b7b1-a2e46ba82e04" target="679e491a-add5-41b1-b265-898f9766c5c3">
-      <data key="d12">True</data>
+    <edge source="8d3db347-c995-4124-9089-f3ac90cc2dd3" target="4eec4583-b782-41ab-b093-78e6c6a7ab92" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="4cab8495-aebd-42c7-b7b1-a2e46ba82e04" target="469f951c-8f87-4f44-8e97-d32be5479b74">
-      <data key="d13">True</data>
+    <edge source="8d3db347-c995-4124-9089-f3ac90cc2dd3" target="34523778-df24-4128-b4b0-84bd021ff773" id="0">
+      <data key="d9">:Innskudd</data>
     </edge>
-    <edge source="4cab8495-aebd-42c7-b7b1-a2e46ba82e04" target="b6a62ed7-e2f2-4c87-83ca-9ae9a4406359">
-      <data key="d14">True</data>
+    <edge source="8d3db347-c995-4124-9089-f3ac90cc2dd3" target="a7cb3277-d189-4148-9370-051fb26e5534" id="0">
+      <data key="d9">:Overføring</data>
     </edge>
-    <edge source="35353226-3bb1-472b-96cf-73dbe7612b4a" target="469f951c-8f87-4f44-8e97-d32be5479b74">
-      <data key="d13">True</data>
+    <edge source="098d8827-5c30-4b7d-8521-bfa2e50289f9" target="34523778-df24-4128-b4b0-84bd021ff773" id="0">
+      <data key="d9">:Innskudd</data>
     </edge>
-    <edge source="35353226-3bb1-472b-96cf-73dbe7612b4a" target="b6a62ed7-e2f2-4c87-83ca-9ae9a4406359">
-      <data key="d15">True</data>
+    <edge source="098d8827-5c30-4b7d-8521-bfa2e50289f9" target="a7cb3277-d189-4148-9370-051fb26e5534" id="0">
+      <data key="d9">:Fra</data>
     </edge>
-    <edge source="9137dd84-dbbe-4f22-ad7d-bb4c9ba78828" target="706dccf5-75c2-4dbd-a3bf-2f4511cb5167">
-      <data key="d11">True</data>
+    <edge source="fd7b8547-0631-4f9d-bd53-1c1e4a159102" target="f81c2cb1-9c32-4cb3-ba3b-274a5b19c503" id="0">
+      <data key="d9">:Kontoeier</data>
     </edge>
-    <edge source="9137dd84-dbbe-4f22-ad7d-bb4c9ba78828" target="9ae66c57-024e-45d0-b10e-594a551a7219">
-      <data key="d12">True</data>
+    <edge source="fd7b8547-0631-4f9d-bd53-1c1e4a159102" target="4919cd10-3cde-42a9-b45b-f6f909af2e67" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="9137dd84-dbbe-4f22-ad7d-bb4c9ba78828" target="a281d3ed-8280-4884-bf3a-7fb6d02f346f">
-      <data key="d12">True</data>
+    <edge source="fd7b8547-0631-4f9d-bd53-1c1e4a159102" target="c8875bd9-75cc-447d-990d-7036d3e38445" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="9137dd84-dbbe-4f22-ad7d-bb4c9ba78828" target="6f3fa70f-8bae-4883-aa7e-e85b9ebb3cee">
-      <data key="d12">True</data>
+    <edge source="fd7b8547-0631-4f9d-bd53-1c1e4a159102" target="edd792f1-4c7d-4ebd-9cf5-899fff65317c" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="9137dd84-dbbe-4f22-ad7d-bb4c9ba78828" target="a4e660f5-1fa1-4662-9493-5ef2ed93468a">
-      <data key="d12">True</data>
+    <edge source="fd7b8547-0631-4f9d-bd53-1c1e4a159102" target="4d5e0ad5-364c-45ac-a832-1f8202c7c82e" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="9137dd84-dbbe-4f22-ad7d-bb4c9ba78828" target="64ff92ff-24ed-4103-ad9f-03e5e852ada3">
-      <data key="d12">True</data>
+    <edge source="fd7b8547-0631-4f9d-bd53-1c1e4a159102" target="5e032c8b-cb30-4be8-85af-5ef58bca2130" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="9137dd84-dbbe-4f22-ad7d-bb4c9ba78828" target="b97521e2-8ddb-488f-9407-73ade6f3f792">
-      <data key="d12">True</data>
+    <edge source="fd7b8547-0631-4f9d-bd53-1c1e4a159102" target="fa8f933b-3849-4b16-8e2d-20516cafdd03" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="9137dd84-dbbe-4f22-ad7d-bb4c9ba78828" target="679e491a-add5-41b1-b265-898f9766c5c3">
-      <data key="d12">True</data>
+    <edge source="fd7b8547-0631-4f9d-bd53-1c1e4a159102" target="4eec4583-b782-41ab-b093-78e6c6a7ab92" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="9137dd84-dbbe-4f22-ad7d-bb4c9ba78828" target="4e065f56-2414-49b0-823f-aaccbd501b04">
-      <data key="d13">True</data>
+    <edge source="fd7b8547-0631-4f9d-bd53-1c1e4a159102" target="932d3e3a-4223-439f-b78f-527fcf4f1954" id="0">
+      <data key="d9">:Innskudd</data>
     </edge>
-    <edge source="9137dd84-dbbe-4f22-ad7d-bb4c9ba78828" target="522a73b9-8458-49b2-aa2d-2cba99534a1e">
-      <data key="d14">True</data>
+    <edge source="fd7b8547-0631-4f9d-bd53-1c1e4a159102" target="ecbe02d3-3054-499a-a2e5-69f232128531" id="0">
+      <data key="d9">:Overføring</data>
     </edge>
-    <edge source="706dccf5-75c2-4dbd-a3bf-2f4511cb5167" target="4e065f56-2414-49b0-823f-aaccbd501b04">
-      <data key="d13">True</data>
+    <edge source="f81c2cb1-9c32-4cb3-ba3b-274a5b19c503" target="932d3e3a-4223-439f-b78f-527fcf4f1954" id="0">
+      <data key="d9">:Innskudd</data>
     </edge>
-    <edge source="706dccf5-75c2-4dbd-a3bf-2f4511cb5167" target="522a73b9-8458-49b2-aa2d-2cba99534a1e">
-      <data key="d15">True</data>
+    <edge source="f81c2cb1-9c32-4cb3-ba3b-274a5b19c503" target="ecbe02d3-3054-499a-a2e5-69f232128531" id="0">
+      <data key="d9">:Fra</data>
     </edge>
-    <edge source="9ae66c57-024e-45d0-b10e-594a551a7219" target="fb3cf069-a0e0-4a2a-8349-bf1872f6bfd8">
-      <data key="d11">True</data>
+    <edge source="4919cd10-3cde-42a9-b45b-f6f909af2e67" target="46224196-edb6-4711-93e5-d638ccdc2eb4" id="0">
+      <data key="d9">:Kontoeier</data>
     </edge>
-    <edge source="9ae66c57-024e-45d0-b10e-594a551a7219" target="a281d3ed-8280-4884-bf3a-7fb6d02f346f">
-      <data key="d12">True</data>
+    <edge source="4919cd10-3cde-42a9-b45b-f6f909af2e67" target="c8875bd9-75cc-447d-990d-7036d3e38445" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="9ae66c57-024e-45d0-b10e-594a551a7219" target="6f3fa70f-8bae-4883-aa7e-e85b9ebb3cee">
-      <data key="d12">True</data>
+    <edge source="4919cd10-3cde-42a9-b45b-f6f909af2e67" target="edd792f1-4c7d-4ebd-9cf5-899fff65317c" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="9ae66c57-024e-45d0-b10e-594a551a7219" target="a4e660f5-1fa1-4662-9493-5ef2ed93468a">
-      <data key="d12">True</data>
+    <edge source="4919cd10-3cde-42a9-b45b-f6f909af2e67" target="4d5e0ad5-364c-45ac-a832-1f8202c7c82e" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="9ae66c57-024e-45d0-b10e-594a551a7219" target="64ff92ff-24ed-4103-ad9f-03e5e852ada3">
-      <data key="d12">True</data>
+    <edge source="4919cd10-3cde-42a9-b45b-f6f909af2e67" target="5e032c8b-cb30-4be8-85af-5ef58bca2130" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="9ae66c57-024e-45d0-b10e-594a551a7219" target="b97521e2-8ddb-488f-9407-73ade6f3f792">
-      <data key="d12">True</data>
+    <edge source="4919cd10-3cde-42a9-b45b-f6f909af2e67" target="fa8f933b-3849-4b16-8e2d-20516cafdd03" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="9ae66c57-024e-45d0-b10e-594a551a7219" target="679e491a-add5-41b1-b265-898f9766c5c3">
-      <data key="d12">True</data>
+    <edge source="4919cd10-3cde-42a9-b45b-f6f909af2e67" target="4eec4583-b782-41ab-b093-78e6c6a7ab92" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="9ae66c57-024e-45d0-b10e-594a551a7219" target="8cf93ccc-6573-4e3a-ba90-8fd2eb2dc103">
-      <data key="d13">True</data>
+    <edge source="4919cd10-3cde-42a9-b45b-f6f909af2e67" target="37a3d3b9-a7cf-4e82-a374-a4f6978c6bc1" id="0">
+      <data key="d9">:Innskudd</data>
     </edge>
-    <edge source="9ae66c57-024e-45d0-b10e-594a551a7219" target="2729ae89-4957-49b6-a1a7-8284c1471a36">
-      <data key="d14">True</data>
+    <edge source="4919cd10-3cde-42a9-b45b-f6f909af2e67" target="2b3d5256-800d-4cd1-9569-c31517c97907" id="0">
+      <data key="d9">:Overføring</data>
     </edge>
-    <edge source="fb3cf069-a0e0-4a2a-8349-bf1872f6bfd8" target="8cf93ccc-6573-4e3a-ba90-8fd2eb2dc103">
-      <data key="d13">True</data>
+    <edge source="46224196-edb6-4711-93e5-d638ccdc2eb4" target="37a3d3b9-a7cf-4e82-a374-a4f6978c6bc1" id="0">
+      <data key="d9">:Innskudd</data>
     </edge>
-    <edge source="fb3cf069-a0e0-4a2a-8349-bf1872f6bfd8" target="2729ae89-4957-49b6-a1a7-8284c1471a36">
-      <data key="d15">True</data>
+    <edge source="46224196-edb6-4711-93e5-d638ccdc2eb4" target="2b3d5256-800d-4cd1-9569-c31517c97907" id="0">
+      <data key="d9">:Fra</data>
     </edge>
-    <edge source="a281d3ed-8280-4884-bf3a-7fb6d02f346f" target="3a45257b-a4ff-47d6-b03e-01993379daba">
-      <data key="d11">True</data>
+    <edge source="c8875bd9-75cc-447d-990d-7036d3e38445" target="4e6e892a-49b6-4ade-8326-02ab530c74b1" id="0">
+      <data key="d9">:Kontoeier</data>
     </edge>
-    <edge source="a281d3ed-8280-4884-bf3a-7fb6d02f346f" target="6f3fa70f-8bae-4883-aa7e-e85b9ebb3cee">
-      <data key="d12">True</data>
+    <edge source="c8875bd9-75cc-447d-990d-7036d3e38445" target="edd792f1-4c7d-4ebd-9cf5-899fff65317c" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="a281d3ed-8280-4884-bf3a-7fb6d02f346f" target="a4e660f5-1fa1-4662-9493-5ef2ed93468a">
-      <data key="d12">True</data>
+    <edge source="c8875bd9-75cc-447d-990d-7036d3e38445" target="4d5e0ad5-364c-45ac-a832-1f8202c7c82e" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="a281d3ed-8280-4884-bf3a-7fb6d02f346f" target="64ff92ff-24ed-4103-ad9f-03e5e852ada3">
-      <data key="d12">True</data>
+    <edge source="c8875bd9-75cc-447d-990d-7036d3e38445" target="5e032c8b-cb30-4be8-85af-5ef58bca2130" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="a281d3ed-8280-4884-bf3a-7fb6d02f346f" target="b97521e2-8ddb-488f-9407-73ade6f3f792">
-      <data key="d12">True</data>
+    <edge source="c8875bd9-75cc-447d-990d-7036d3e38445" target="fa8f933b-3849-4b16-8e2d-20516cafdd03" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="a281d3ed-8280-4884-bf3a-7fb6d02f346f" target="679e491a-add5-41b1-b265-898f9766c5c3">
-      <data key="d12">True</data>
+    <edge source="c8875bd9-75cc-447d-990d-7036d3e38445" target="4eec4583-b782-41ab-b093-78e6c6a7ab92" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="a281d3ed-8280-4884-bf3a-7fb6d02f346f" target="61e449b1-f0a5-469a-a335-fdcef6e3ad35">
-      <data key="d13">True</data>
+    <edge source="c8875bd9-75cc-447d-990d-7036d3e38445" target="aeaccd69-a692-4955-9666-9ee27ad5fbeb" id="0">
+      <data key="d9">:Innskudd</data>
     </edge>
-    <edge source="a281d3ed-8280-4884-bf3a-7fb6d02f346f" target="149ed3b6-5415-4b16-991f-a55fa1e3b0f2">
-      <data key="d14">True</data>
+    <edge source="c8875bd9-75cc-447d-990d-7036d3e38445" target="d1e49137-4b30-4a48-bfe6-6bea6fd981da" id="0">
+      <data key="d9">:Overføring</data>
     </edge>
-    <edge source="3a45257b-a4ff-47d6-b03e-01993379daba" target="61e449b1-f0a5-469a-a335-fdcef6e3ad35">
-      <data key="d13">True</data>
+    <edge source="4e6e892a-49b6-4ade-8326-02ab530c74b1" target="aeaccd69-a692-4955-9666-9ee27ad5fbeb" id="0">
+      <data key="d9">:Innskudd</data>
     </edge>
-    <edge source="3a45257b-a4ff-47d6-b03e-01993379daba" target="149ed3b6-5415-4b16-991f-a55fa1e3b0f2">
-      <data key="d15">True</data>
+    <edge source="4e6e892a-49b6-4ade-8326-02ab530c74b1" target="d1e49137-4b30-4a48-bfe6-6bea6fd981da" id="0">
+      <data key="d9">:Fra</data>
     </edge>
-    <edge source="6f3fa70f-8bae-4883-aa7e-e85b9ebb3cee" target="f9c57e3e-a740-463d-94b9-045b1d06a776">
-      <data key="d11">True</data>
+    <edge source="edd792f1-4c7d-4ebd-9cf5-899fff65317c" target="c6c0c6c7-1dfc-434b-a16b-ab67b210e115" id="0">
+      <data key="d9">:Kontoeier</data>
     </edge>
-    <edge source="6f3fa70f-8bae-4883-aa7e-e85b9ebb3cee" target="a4e660f5-1fa1-4662-9493-5ef2ed93468a">
-      <data key="d12">True</data>
+    <edge source="edd792f1-4c7d-4ebd-9cf5-899fff65317c" target="4d5e0ad5-364c-45ac-a832-1f8202c7c82e" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="6f3fa70f-8bae-4883-aa7e-e85b9ebb3cee" target="64ff92ff-24ed-4103-ad9f-03e5e852ada3">
-      <data key="d12">True</data>
+    <edge source="edd792f1-4c7d-4ebd-9cf5-899fff65317c" target="5e032c8b-cb30-4be8-85af-5ef58bca2130" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="6f3fa70f-8bae-4883-aa7e-e85b9ebb3cee" target="b97521e2-8ddb-488f-9407-73ade6f3f792">
-      <data key="d12">True</data>
+    <edge source="edd792f1-4c7d-4ebd-9cf5-899fff65317c" target="fa8f933b-3849-4b16-8e2d-20516cafdd03" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="6f3fa70f-8bae-4883-aa7e-e85b9ebb3cee" target="679e491a-add5-41b1-b265-898f9766c5c3">
-      <data key="d12">True</data>
+    <edge source="edd792f1-4c7d-4ebd-9cf5-899fff65317c" target="4eec4583-b782-41ab-b093-78e6c6a7ab92" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="6f3fa70f-8bae-4883-aa7e-e85b9ebb3cee" target="6f0ea34f-0701-4436-a0ee-53ae726b0b7e">
-      <data key="d13">True</data>
+    <edge source="edd792f1-4c7d-4ebd-9cf5-899fff65317c" target="16b48757-bdd2-44ec-85c4-c0f4950c2f85" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="6f3fa70f-8bae-4883-aa7e-e85b9ebb3cee" target="d12d154c-0127-4d22-843d-3773d2e8abbc">
-      <data key="d14">True</data>
+    <edge source="edd792f1-4c7d-4ebd-9cf5-899fff65317c" target="d3218195-4e26-46cf-8de2-4784075fab90" id="0">
+      <data key="d9">:Overføring</data>
     </edge>
-    <edge source="f9c57e3e-a740-463d-94b9-045b1d06a776" target="6f0ea34f-0701-4436-a0ee-53ae726b0b7e">
-      <data key="d13">True</data>
+    <edge source="edd792f1-4c7d-4ebd-9cf5-899fff65317c" target="a7cb3277-d189-4148-9370-051fb26e5534" id="0">
+      <data key="d9">:Overføring</data>
     </edge>
-    <edge source="f9c57e3e-a740-463d-94b9-045b1d06a776" target="d12d154c-0127-4d22-843d-3773d2e8abbc">
-      <data key="d15">True</data>
+    <edge source="edd792f1-4c7d-4ebd-9cf5-899fff65317c" target="ecbe02d3-3054-499a-a2e5-69f232128531" id="0">
+      <data key="d9">:Overføring</data>
     </edge>
-    <edge source="a4e660f5-1fa1-4662-9493-5ef2ed93468a" target="09adb5bb-a860-4402-ae49-33cf476e6b0e">
-      <data key="d11">True</data>
+    <edge source="edd792f1-4c7d-4ebd-9cf5-899fff65317c" target="2b3d5256-800d-4cd1-9569-c31517c97907" id="0">
+      <data key="d9">:Overføring</data>
     </edge>
-    <edge source="a4e660f5-1fa1-4662-9493-5ef2ed93468a" target="64ff92ff-24ed-4103-ad9f-03e5e852ada3">
-      <data key="d12">True</data>
+    <edge source="edd792f1-4c7d-4ebd-9cf5-899fff65317c" target="d1e49137-4b30-4a48-bfe6-6bea6fd981da" id="0">
+      <data key="d9">:Overføring</data>
     </edge>
-    <edge source="a4e660f5-1fa1-4662-9493-5ef2ed93468a" target="b97521e2-8ddb-488f-9407-73ade6f3f792">
-      <data key="d12">True</data>
+    <edge source="edd792f1-4c7d-4ebd-9cf5-899fff65317c" target="b940f989-7a5c-4ad7-b0d7-a4f27d31fd2f" id="0">
+      <data key="d9">:Innskudd</data>
     </edge>
-    <edge source="a4e660f5-1fa1-4662-9493-5ef2ed93468a" target="679e491a-add5-41b1-b265-898f9766c5c3">
-      <data key="d12">True</data>
+    <edge source="edd792f1-4c7d-4ebd-9cf5-899fff65317c" target="28e05e29-da93-4858-8705-89c0022ff660" id="0">
+      <data key="d9">:Overføring</data>
     </edge>
-    <edge source="a4e660f5-1fa1-4662-9493-5ef2ed93468a" target="a7a43e29-7480-4a50-8dc6-f89f393ae5cf">
-      <data key="d13">True</data>
+    <edge source="edd792f1-4c7d-4ebd-9cf5-899fff65317c" target="28e05e29-da93-4858-8705-89c0022ff660" id="1">
+      <data key="d9">:Overføring</data>
     </edge>
-    <edge source="a4e660f5-1fa1-4662-9493-5ef2ed93468a" target="cbe9830d-4d72-415b-9658-9f7bd19b570b">
-      <data key="d14">True</data>
+    <edge source="edd792f1-4c7d-4ebd-9cf5-899fff65317c" target="193f6c21-ee44-41c1-8a57-51a0f2df12a1" id="0">
+      <data key="d9">:Overføring</data>
     </edge>
-    <edge source="09adb5bb-a860-4402-ae49-33cf476e6b0e" target="a7a43e29-7480-4a50-8dc6-f89f393ae5cf">
-      <data key="d13">True</data>
+    <edge source="edd792f1-4c7d-4ebd-9cf5-899fff65317c" target="0d865d47-89fe-4ecc-836c-7e800fa3eb20" id="0">
+      <data key="d9">:Overføring</data>
     </edge>
-    <edge source="09adb5bb-a860-4402-ae49-33cf476e6b0e" target="cbe9830d-4d72-415b-9658-9f7bd19b570b">
-      <data key="d15">True</data>
+    <edge source="edd792f1-4c7d-4ebd-9cf5-899fff65317c" target="2417ffaa-a328-4028-8f90-f0fb2938c157" id="0">
+      <data key="d9">:Overføring</data>
     </edge>
-    <edge source="64ff92ff-24ed-4103-ad9f-03e5e852ada3" target="def2bd48-dae6-4884-9101-5fe79179c811">
-      <data key="d11">True</data>
+    <edge source="edd792f1-4c7d-4ebd-9cf5-899fff65317c" target="fbdcca4f-3003-4e11-a11a-a5270e42fd71" id="0">
+      <data key="d9">:Overføring</data>
     </edge>
-    <edge source="64ff92ff-24ed-4103-ad9f-03e5e852ada3" target="b97521e2-8ddb-488f-9407-73ade6f3f792">
-      <data key="d12">True</data>
+    <edge source="edd792f1-4c7d-4ebd-9cf5-899fff65317c" target="be181989-537a-4810-ae0f-b4905dab4545" id="0">
+      <data key="d9">:Uttak</data>
     </edge>
-    <edge source="64ff92ff-24ed-4103-ad9f-03e5e852ada3" target="679e491a-add5-41b1-b265-898f9766c5c3">
-      <data key="d12">True</data>
+    <edge source="c6c0c6c7-1dfc-434b-a16b-ab67b210e115" target="d3218195-4e26-46cf-8de2-4784075fab90" id="0">
+      <data key="d9">:Til</data>
     </edge>
-    <edge source="64ff92ff-24ed-4103-ad9f-03e5e852ada3" target="95af5b64-8022-4268-88c6-8ff3e15d0a89">
-      <data key="d12">True</data>
+    <edge source="c6c0c6c7-1dfc-434b-a16b-ab67b210e115" target="a7cb3277-d189-4148-9370-051fb26e5534" id="0">
+      <data key="d9">:Til</data>
     </edge>
-    <edge source="64ff92ff-24ed-4103-ad9f-03e5e852ada3" target="414ecfd9-9b2a-4ac3-93ad-c38899002b11">
-      <data key="d16">True</data>
+    <edge source="c6c0c6c7-1dfc-434b-a16b-ab67b210e115" target="ecbe02d3-3054-499a-a2e5-69f232128531" id="0">
+      <data key="d9">:Til</data>
     </edge>
-    <edge source="64ff92ff-24ed-4103-ad9f-03e5e852ada3" target="b6a62ed7-e2f2-4c87-83ca-9ae9a4406359">
-      <data key="d16">True</data>
+    <edge source="c6c0c6c7-1dfc-434b-a16b-ab67b210e115" target="2b3d5256-800d-4cd1-9569-c31517c97907" id="0">
+      <data key="d9">:Til</data>
     </edge>
-    <edge source="64ff92ff-24ed-4103-ad9f-03e5e852ada3" target="522a73b9-8458-49b2-aa2d-2cba99534a1e">
-      <data key="d16">True</data>
+    <edge source="c6c0c6c7-1dfc-434b-a16b-ab67b210e115" target="d1e49137-4b30-4a48-bfe6-6bea6fd981da" id="0">
+      <data key="d9">:Til</data>
     </edge>
-    <edge source="64ff92ff-24ed-4103-ad9f-03e5e852ada3" target="2729ae89-4957-49b6-a1a7-8284c1471a36">
-      <data key="d16">True</data>
+    <edge source="c6c0c6c7-1dfc-434b-a16b-ab67b210e115" target="b940f989-7a5c-4ad7-b0d7-a4f27d31fd2f" id="0">
+      <data key="d9">:Innskudd</data>
     </edge>
-    <edge source="64ff92ff-24ed-4103-ad9f-03e5e852ada3" target="149ed3b6-5415-4b16-991f-a55fa1e3b0f2">
-      <data key="d16">True</data>
+    <edge source="c6c0c6c7-1dfc-434b-a16b-ab67b210e115" target="28e05e29-da93-4858-8705-89c0022ff660" id="0">
+      <data key="d9">:Fra</data>
     </edge>
-    <edge source="64ff92ff-24ed-4103-ad9f-03e5e852ada3" target="d12d154c-0127-4d22-843d-3773d2e8abbc">
-      <data key="d16">True</data>
+    <edge source="c6c0c6c7-1dfc-434b-a16b-ab67b210e115" target="28e05e29-da93-4858-8705-89c0022ff660" id="1">
+      <data key="d9">:Til</data>
     </edge>
-    <edge source="64ff92ff-24ed-4103-ad9f-03e5e852ada3" target="cbe9830d-4d72-415b-9658-9f7bd19b570b">
-      <data key="d16">True</data>
+    <edge source="c6c0c6c7-1dfc-434b-a16b-ab67b210e115" target="193f6c21-ee44-41c1-8a57-51a0f2df12a1" id="0">
+      <data key="d9">:Til</data>
     </edge>
-    <edge source="64ff92ff-24ed-4103-ad9f-03e5e852ada3" target="4474657b-d966-4339-b9fc-69fe2a80fea9">
-      <data key="d13">True</data>
+    <edge source="c6c0c6c7-1dfc-434b-a16b-ab67b210e115" target="0d865d47-89fe-4ecc-836c-7e800fa3eb20" id="0">
+      <data key="d9">:Til</data>
     </edge>
-    <edge source="64ff92ff-24ed-4103-ad9f-03e5e852ada3" target="00dd302b-bd31-4689-b5c7-7fc43679bc41">
-      <data key="d14">True</data>
-      <data key="d16">True</data>
+    <edge source="c6c0c6c7-1dfc-434b-a16b-ab67b210e115" target="2417ffaa-a328-4028-8f90-f0fb2938c157" id="0">
+      <data key="d9">:Til</data>
     </edge>
-    <edge source="64ff92ff-24ed-4103-ad9f-03e5e852ada3" target="28d18483-ecf8-4506-9272-87a1818879aa">
-      <data key="d16">True</data>
+    <edge source="c6c0c6c7-1dfc-434b-a16b-ab67b210e115" target="fbdcca4f-3003-4e11-a11a-a5270e42fd71" id="0">
+      <data key="d9">:Til</data>
     </edge>
-    <edge source="64ff92ff-24ed-4103-ad9f-03e5e852ada3" target="a69ed7d2-73b8-4e2c-824f-0629a0bb6e6b">
-      <data key="d16">True</data>
+    <edge source="c6c0c6c7-1dfc-434b-a16b-ab67b210e115" target="be181989-537a-4810-ae0f-b4905dab4545" id="0">
+      <data key="d9">:Uttak</data>
     </edge>
-    <edge source="64ff92ff-24ed-4103-ad9f-03e5e852ada3" target="34780a46-b9c0-420a-bb3a-ca79bd7e3b86">
-      <data key="d17">True</data>
+    <edge source="4d5e0ad5-364c-45ac-a832-1f8202c7c82e" target="18a48d78-1248-436d-a268-af5dad58d037" id="0">
+      <data key="d9">:Kontoeier</data>
     </edge>
-    <edge source="def2bd48-dae6-4884-9101-5fe79179c811" target="414ecfd9-9b2a-4ac3-93ad-c38899002b11">
-      <data key="d15">True</data>
+    <edge source="4d5e0ad5-364c-45ac-a832-1f8202c7c82e" target="5e032c8b-cb30-4be8-85af-5ef58bca2130" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="def2bd48-dae6-4884-9101-5fe79179c811" target="b6a62ed7-e2f2-4c87-83ca-9ae9a4406359">
-      <data key="d15">True</data>
+    <edge source="4d5e0ad5-364c-45ac-a832-1f8202c7c82e" target="fa8f933b-3849-4b16-8e2d-20516cafdd03" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="def2bd48-dae6-4884-9101-5fe79179c811" target="522a73b9-8458-49b2-aa2d-2cba99534a1e">
-      <data key="d15">True</data>
+    <edge source="4d5e0ad5-364c-45ac-a832-1f8202c7c82e" target="4eec4583-b782-41ab-b093-78e6c6a7ab92" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="def2bd48-dae6-4884-9101-5fe79179c811" target="2729ae89-4957-49b6-a1a7-8284c1471a36">
-      <data key="d15">True</data>
+    <edge source="4d5e0ad5-364c-45ac-a832-1f8202c7c82e" target="c3eb5024-6375-421a-93fe-1fa66afac5fd" id="0">
+      <data key="d9">:Innskudd</data>
     </edge>
-    <edge source="def2bd48-dae6-4884-9101-5fe79179c811" target="149ed3b6-5415-4b16-991f-a55fa1e3b0f2">
-      <data key="d15">True</data>
+    <edge source="4d5e0ad5-364c-45ac-a832-1f8202c7c82e" target="193f6c21-ee44-41c1-8a57-51a0f2df12a1" id="0">
+      <data key="d9">:Overføring</data>
     </edge>
-    <edge source="def2bd48-dae6-4884-9101-5fe79179c811" target="d12d154c-0127-4d22-843d-3773d2e8abbc">
-      <data key="d15">True</data>
+    <edge source="18a48d78-1248-436d-a268-af5dad58d037" target="c3eb5024-6375-421a-93fe-1fa66afac5fd" id="0">
+      <data key="d9">:Innskudd</data>
     </edge>
-    <edge source="def2bd48-dae6-4884-9101-5fe79179c811" target="cbe9830d-4d72-415b-9658-9f7bd19b570b">
-      <data key="d15">True</data>
+    <edge source="18a48d78-1248-436d-a268-af5dad58d037" target="193f6c21-ee44-41c1-8a57-51a0f2df12a1" id="0">
+      <data key="d9">:Fra</data>
     </edge>
-    <edge source="def2bd48-dae6-4884-9101-5fe79179c811" target="4474657b-d966-4339-b9fc-69fe2a80fea9">
-      <data key="d13">True</data>
+    <edge source="5e032c8b-cb30-4be8-85af-5ef58bca2130" target="ee07996d-7f32-4106-86cf-2d7d8c83065c" id="0">
+      <data key="d9">:Kontoeier</data>
     </edge>
-    <edge source="def2bd48-dae6-4884-9101-5fe79179c811" target="00dd302b-bd31-4689-b5c7-7fc43679bc41">
-      <data key="d15">True</data>
+    <edge source="5e032c8b-cb30-4be8-85af-5ef58bca2130" target="fa8f933b-3849-4b16-8e2d-20516cafdd03" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="def2bd48-dae6-4884-9101-5fe79179c811" target="28d18483-ecf8-4506-9272-87a1818879aa">
-      <data key="d15">True</data>
+    <edge source="5e032c8b-cb30-4be8-85af-5ef58bca2130" target="4eec4583-b782-41ab-b093-78e6c6a7ab92" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="def2bd48-dae6-4884-9101-5fe79179c811" target="a69ed7d2-73b8-4e2c-824f-0629a0bb6e6b">
-      <data key="d15">True</data>
+    <edge source="5e032c8b-cb30-4be8-85af-5ef58bca2130" target="efafb18f-e9d8-441f-ad26-9cf1734b2fa5" id="0">
+      <data key="d9">:Innskudd</data>
     </edge>
-    <edge source="def2bd48-dae6-4884-9101-5fe79179c811" target="34780a46-b9c0-420a-bb3a-ca79bd7e3b86">
-      <data key="d17">True</data>
+    <edge source="5e032c8b-cb30-4be8-85af-5ef58bca2130" target="0d865d47-89fe-4ecc-836c-7e800fa3eb20" id="0">
+      <data key="d9">:Overføring</data>
     </edge>
-    <edge source="b97521e2-8ddb-488f-9407-73ade6f3f792" target="e6d11e71-26e6-4bae-b5b3-ce63253f7faf">
-      <data key="d11">True</data>
+    <edge source="ee07996d-7f32-4106-86cf-2d7d8c83065c" target="efafb18f-e9d8-441f-ad26-9cf1734b2fa5" id="0">
+      <data key="d9">:Innskudd</data>
     </edge>
-    <edge source="b97521e2-8ddb-488f-9407-73ade6f3f792" target="679e491a-add5-41b1-b265-898f9766c5c3">
-      <data key="d12">True</data>
+    <edge source="ee07996d-7f32-4106-86cf-2d7d8c83065c" target="0d865d47-89fe-4ecc-836c-7e800fa3eb20" id="0">
+      <data key="d9">:Fra</data>
     </edge>
-    <edge source="b97521e2-8ddb-488f-9407-73ade6f3f792" target="68554d90-871e-4637-a0fd-f86239495d38">
-      <data key="d13">True</data>
+    <edge source="fa8f933b-3849-4b16-8e2d-20516cafdd03" target="3665ab39-5a5b-4b29-9623-d1d14f97fead" id="0">
+      <data key="d9">:Kontoeier</data>
     </edge>
-    <edge source="b97521e2-8ddb-488f-9407-73ade6f3f792" target="28d18483-ecf8-4506-9272-87a1818879aa">
-      <data key="d14">True</data>
+    <edge source="fa8f933b-3849-4b16-8e2d-20516cafdd03" target="4eec4583-b782-41ab-b093-78e6c6a7ab92" id="0">
+      <data key="d9">:Kjenner</data>
     </edge>
-    <edge source="e6d11e71-26e6-4bae-b5b3-ce63253f7faf" target="68554d90-871e-4637-a0fd-f86239495d38">
-      <data key="d13">True</data>
+    <edge source="fa8f933b-3849-4b16-8e2d-20516cafdd03" target="a69042a7-aa87-4779-b326-e99e7399cd7b" id="0">
+      <data key="d9">:Innskudd</data>
     </edge>
-    <edge source="e6d11e71-26e6-4bae-b5b3-ce63253f7faf" target="28d18483-ecf8-4506-9272-87a1818879aa">
-      <data key="d15">True</data>
+    <edge source="fa8f933b-3849-4b16-8e2d-20516cafdd03" target="2417ffaa-a328-4028-8f90-f0fb2938c157" id="0">
+      <data key="d9">:Overføring</data>
     </edge>
-    <edge source="679e491a-add5-41b1-b265-898f9766c5c3" target="677d1b90-af9b-4ce9-b5e7-c38dcf18d9e6">
-      <data key="d11">True</data>
+    <edge source="3665ab39-5a5b-4b29-9623-d1d14f97fead" target="a69042a7-aa87-4779-b326-e99e7399cd7b" id="0">
+      <data key="d9">:Innskudd</data>
     </edge>
-    <edge source="679e491a-add5-41b1-b265-898f9766c5c3" target="b73f2f6d-179e-44ae-804e-075a5076e359">
-      <data key="d13">True</data>
+    <edge source="3665ab39-5a5b-4b29-9623-d1d14f97fead" target="2417ffaa-a328-4028-8f90-f0fb2938c157" id="0">
+      <data key="d9">:Fra</data>
     </edge>
-    <edge source="679e491a-add5-41b1-b265-898f9766c5c3" target="a69ed7d2-73b8-4e2c-824f-0629a0bb6e6b">
-      <data key="d14">True</data>
+    <edge source="4eec4583-b782-41ab-b093-78e6c6a7ab92" target="d85d7859-9335-4a52-aac1-8461ac667d4c" id="0">
+      <data key="d9">:Kontoeier</data>
     </edge>
-    <edge source="677d1b90-af9b-4ce9-b5e7-c38dcf18d9e6" target="b73f2f6d-179e-44ae-804e-075a5076e359">
-      <data key="d13">True</data>
+    <edge source="4eec4583-b782-41ab-b093-78e6c6a7ab92" target="f8d7f752-22c4-442d-be9c-d169ac6167f8" id="0">
+      <data key="d9">:Innskudd</data>
     </edge>
-    <edge source="677d1b90-af9b-4ce9-b5e7-c38dcf18d9e6" target="a69ed7d2-73b8-4e2c-824f-0629a0bb6e6b">
-      <data key="d15">True</data>
+    <edge source="4eec4583-b782-41ab-b093-78e6c6a7ab92" target="fbdcca4f-3003-4e11-a11a-a5270e42fd71" id="0">
+      <data key="d9">:Overføring</data>
     </edge>
-    <edge source="95af5b64-8022-4268-88c6-8ff3e15d0a89" target="da39ce62-f8a5-4910-b752-af3e9f3ea824">
-      <data key="d11">True</data>
+    <edge source="d85d7859-9335-4a52-aac1-8461ac667d4c" target="f8d7f752-22c4-442d-be9c-d169ac6167f8" id="0">
+      <data key="d9">:Innskudd</data>
     </edge>
-    <edge source="95af5b64-8022-4268-88c6-8ff3e15d0a89" target="eb532f04-66ba-45cd-8b58-7d80e860ff01">
-      <data key="d13">True</data>
+    <edge source="d85d7859-9335-4a52-aac1-8461ac667d4c" target="fbdcca4f-3003-4e11-a11a-a5270e42fd71" id="0">
+      <data key="d9">:Fra</data>
     </edge>
-    <edge source="da39ce62-f8a5-4910-b752-af3e9f3ea824" target="eb532f04-66ba-45cd-8b58-7d80e860ff01">
-      <data key="d13">True</data>
+    <edge source="16b48757-bdd2-44ec-85c4-c0f4950c2f85" target="94c070b4-91f5-4832-ac89-3acb38613fb5" id="0">
+      <data key="d9">:Kontoeier</data>
+    </edge>
+    <edge source="16b48757-bdd2-44ec-85c4-c0f4950c2f85" target="3a3999fe-3b3a-4a5b-bc48-ab3acf7e8837" id="0">
+      <data key="d9">:Innskudd</data>
+    </edge>
+    <edge source="94c070b4-91f5-4832-ac89-3acb38613fb5" target="3a3999fe-3b3a-4a5b-bc48-ab3acf7e8837" id="0">
+      <data key="d9">:Innskudd</data>
     </edge>
   </graph>
 </graphml>
