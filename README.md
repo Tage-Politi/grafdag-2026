@@ -8,18 +8,23 @@ Søke i `http://tilgang` om **Local Admin**.
 Når det er innvilget, start programmet `MakeMeAdmin`, og  gå til
 Firmaportalen og last ned "Ubuntu 24.04 LTS"; tar litt tid.
 
-Deretter
+Etter den obligatoriske `sudo apt update` og `sudo apt upgrade` kjører du 
 ```
 sudo apt install podman
 ```
+Fordi du ikke skal åpne porter under 1024 kan du ignorere denne advarselen:
+```
+This machine is currently configured in rootless mode.
+```
 
 ### Intune Mac
+Rykter forteller at dette er det som er nødvendig:
 ```
 brew install podman
 podman machine init
 podman machine start
 ```
-Fordi du ikke skal åpne porter under 1024 kan du ignorere advarselen:
+Fordi du ikke skal åpne porter under 1024 kan du ignorere denne advarselen:
 ```
 This machine is currently configured in rootless mode.
 ```
