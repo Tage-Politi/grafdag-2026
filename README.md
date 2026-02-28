@@ -30,7 +30,9 @@ This machine is currently configured in rootless mode.
 ```
 
 ## Programvaren
-Hent det vi skal snakke om:
+
+I en terminal, som på Intune er en `Ubuntu` skal du først
+ente det vi skal snakke om:
 ```
 ~> git clone git@github.com:Tage-Politi/grafdag-2026.git
 ```
