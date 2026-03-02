@@ -56,6 +56,6 @@ Blant all teksten finner du:
         http://localhost:8888/tree?token=75a6c8b174f0729a9b81071285e4fbaa11c1c5c737162c46
         http://127.0.0.1:8888/tree?token=75a6c8b174f0729a9b81071285e4fbaa11c1c5c737162c46
 ```
-Lim URL'en inn i din favoritt-nettleser.  Du får opp listen av *notebook*.  
+Lim URL'en inn i din favoritt-nettleser.  Du får opp listen av *notebook*.  Klikk på dem for å¨se kode og kjøring
 
 Presentasjonen vil starte med en **kort** introduksjon til hvordan man bruker *Jupyter Notebook*.
