@@ -30,17 +30,32 @@ This machine is currently configured in rootless mode.
 ```
 
 ## Programvaren
-Hent det vi skal snakke om:
+
+I en terminal, som på Intune er en `Ubuntu` skal du først
+ente det vi skal snakke om:
 ```
-~> git clone git@github.com:Tage-Politi/grafdag-2026.git
+~> git clone https://github.com/Tage-Politi/grafdag-2026.git
 ```
 
 For å komme på luften:
+1. Først lage en Python-omgivelse;
+2. Aktivere den;
+3. Fylle den med programvare, og
+4. Starte og opprette forbindelse tli *notebook*.
+
 ```
-    ~> cd grafdag/
-    grafdag> python3 -v venv
+    ~> cd grafdag-2026
+    grafdag> python3 -v venv venv
     grafdag> . venv/bin/activate
     (venv) grafdag> pip install -r requirements.txt
     (venv) grafdag> jupyter notebook
 ```
+Blant all teksten finner du:
+```
+    Or copy and paste one of these URLs:
+        http://localhost:8888/tree?token=75a6c8b174f0729a9b81071285e4fbaa11c1c5c737162c46
+        http://127.0.0.1:8888/tree?token=75a6c8b174f0729a9b81071285e4fbaa11c1c5c737162c46
+```
+Lim URL'en inn i din favoritt-nettleser.  Du får opp listen av *notebook*.  
 
+Presentasjonen vil starte med en **kort** introduksjon til hvordan man bruker *Jupyter Notebook*.
