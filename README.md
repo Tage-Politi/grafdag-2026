@@ -2,7 +2,13 @@
 
 ## Nødvendige forberedelser
 
-### Intune PC
+Dersom du bare vil følge med og se på koden, kan du surfe til [Jupyter Notebooks](https://github.com/Tage-Politi/grafdag-2026).
+Klikk på "1-...." så vil de lastes som de skal.  Du vil ikke kunne kjøre koden, men du kan både se den
+og se resultatet av å kjøre den.
+
+### Kjøre selv
+
+#### Intune PC
 Søke i `http://tilgang` om **Local Admin**.
 
 Når det er innvilget, start programmet `MakeMeAdmin`, og  gå til
@@ -17,7 +23,7 @@ Fordi du ikke skal åpne porter under 1024 kan du ignorere denne advarselen:
 This machine is currently configured in rootless mode.
 ```
 
-### Intune Mac
+#### Intune Mac
 Rykter forteller at dette er det som er nødvendig:
 ```
 brew install podman
@@ -31,8 +37,8 @@ This machine is currently configured in rootless mode.
 
 ## Programvaren
 
-I en terminal, som på Intune er en `Ubuntu` skal du først
-ente det vi skal snakke om:
+I en terminal, som på Intune er en `Ubuntu` menpå Mac en "Terminal" (aka: Shell) skal du først
+hente det vi skal snakke om:
 ```
 ~> git clone https://github.com/Tage-Politi/grafdag-2026.git
 ```
@@ -50,12 +56,13 @@ For å komme på luften:
     (venv) grafdag> pip install -r requirements.txt
     (venv) grafdag> jupyter notebook
 ```
-Blant all teksten finner du:
+Blant all teksten som kommer på skjermen finner du:
 ```
     Or copy and paste one of these URLs:
         http://localhost:8888/tree?token=75a6c8b174f0729a9b81071285e4fbaa11c1c5c737162c46
         http://127.0.0.1:8888/tree?token=75a6c8b174f0729a9b81071285e4fbaa11c1c5c737162c46
 ```
-Lim URL'en inn i din favoritt-nettleser.  Du får opp listen av *notebook*.  Klikk på dem for å¨se kode og kjøring
+Lim en av de to URL'ene inn i din favoritt-nettleser.  Du får opp listen av *notebook*.  Klikk på dem for å se kode og kunne kjøre den.
+VSCode fungerer naturligvis også.
 
 Presentasjonen vil starte med en **kort** introduksjon til hvordan man bruker *Jupyter Notebook*.
