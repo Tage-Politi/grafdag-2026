@@ -12,7 +12,7 @@ og se resultatet av å kjøre den.
 Søke i `http://tilgang` om **Local Admin**.
 
 Når det er innvilget, start programmet `MakeMeAdmin`, og  gå til
-Firmaportalen og last ned "Ubuntu 24.04 LTS"; tar litt tid.
+Microsoft Store og last ned "Ubuntu 24.04 LTS"; tar litt tid.
 
 Etter den obligatoriske `sudo apt update` og `sudo apt upgrade` kjører du 
 ```
