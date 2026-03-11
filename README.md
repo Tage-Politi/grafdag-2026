@@ -51,7 +51,7 @@ For å komme på luften:
 
 ```
     ~> cd grafdag-2026
-    grafdag> python3 -v venv venv
+    grafdag> python3 -m venv venv
     grafdag> . venv/bin/activate
     (venv) grafdag> pip install -r requirements.txt
     (venv) grafdag> jupyter notebook
